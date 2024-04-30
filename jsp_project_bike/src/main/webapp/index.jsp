@@ -28,7 +28,7 @@
     %>
     <div class="col-md-4 col-sm-6 col-xs-10">
       <div class="thumbnail">
-        <img src="images/<%= bike.getId() %>.jpg" class="zoom" alt="Bike Image" style="width: 100%; height: 70%">
+        <img src="images/<%= bike.getId() %>.png" class="zoom" alt="Bike Image" style="width: 100%; height: 70%">
         <div class="caption" style="text-align: center;">
           <p><b>Modèle : <%= bike.getModelName() %></b></p>
           <p>Tarif : <%= bike.getPrice() %> euros</p>
